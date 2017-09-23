@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+}
+
+/* --------------------- MEDIA QUERY - 675px up to 999px ----------------- */
+@media (min-width: 675px) {
+
+    body {
+        background-color: red;
+    }
+}
+
+/* --------------------- MEDIA QUERY - 999px up to 1280px ----------------- */
+
+@media (min-width: 999px) {
+
+    body {
+        background-color: blue;
+    }
+}
+
+/* --------------------- MEDIA QUERY - 1280px and up  ----------------- */
+
+@media (min-width: 1280px) {
+
+    body {
+        background-color: green;
+    }
+}
