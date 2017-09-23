@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+/* --------------------- MEDIA QUERY - 1080px to 550px --------------------- */
+@media (max-width: 1080px) {
+
+    body {
+        background-color: green;
+    }
+}
+
+/* --------------------- MEDIA QUERY - 550px to 400px --------------------- */
+@media (max-width: 550px) {
+
+    body {
+        background-color: red;
+    }
+}
+
+/* --------------------- MEDIA QUERY - 400px and less --------------------- */
+@media (max-width: 400px) {
+
+    body {
+        background-color: blue;
+    }
+}
