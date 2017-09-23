@@ -1,0 +1,11 @@
+body {
+    background-color: blue;
+}
+
+/* -------------------------- MEDIA QUERY - 715px to 960px ----------------- */
+
+@media (min-width: 716px) and (max-width: 960px) {
+    body {
+        background-color: orange;
+    }
+}
